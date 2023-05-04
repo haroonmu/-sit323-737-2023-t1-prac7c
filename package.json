@@ -1,0 +1,23 @@
+{
+  "name": "sit323-737-2023-t1-prac5p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haroonmu/sit323-737-2023-t1-prac5p.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haroonmu/sit323-737-2023-t1-prac5p/issues"
+  },
+  "homepage": "https://github.com/haroonmu/sit323-737-2023-t1-prac5p#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

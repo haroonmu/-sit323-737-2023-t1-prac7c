@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web:
+   image: nginx
+  database:
+   image: redis
+  app: 
+   build: .
+   volumes:
+    - .:/usr/scr/app
+   container_name: haroon-app
+   restart: always
+   ports:
+     - 4026:3000
+   command: bash -c/usr/scr/app/start.sh
+   env_file: .env
