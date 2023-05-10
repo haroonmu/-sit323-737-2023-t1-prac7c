@@ -5,5 +5,5 @@
 firstly, Import the 7.1P folder in Visual Studio Code.
 then, Get the bearer token for login
 Command  kubectl -n kubernetes-dashboard create token admin-user
-Access the dashboard at http://localhost:8001/api/v1/namespaces/kubernetesdashboard/services/https:kubernetes-dashboard:/proxy/#/log/default/welcomemicroservice8fcc9cc-4b8c8/pod?namespace=default&container=welcomemicroservice
+Access the dashboard at http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
 Enter the generated token to login.
