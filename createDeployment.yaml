@@ -17,7 +17,7 @@ spec:
         tier: frontend
     spec:
       containers:
-        - name: mynode
+        - name: haroon-app
           image: /var/lib/docker/examplenode
           ports:
             - containerPort: 3000
